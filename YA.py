@@ -1,6 +1,8 @@
-'''
-This program adds two numbers and displays their results
-'''
-Firstnum = 1
-Secondnum = 2
-print('Sum of Numbers:', Firstnum + Secondnum)
+import os
+import math
+
+def func1(a, b) -> str:
+    return math.floor(a + b)
+
+def func2(a,b, c) -> int:
+    return os.getcwd()
