@@ -1,7 +1,11 @@
-def test(a,b):
-  result=a*b
-  return result
-test(3,2)
-
-print("she's got you high and you don't even know yet")
-
+a=[[1,2],
+  [3,4]]
+b=[[5,6],
+  [7,8]]
+result=[[0,0],
+       [0,0]]
+for i in range(len(a)):
+    for j in range(len(a[0])):
+        result[i][j]=a[i][j]*b[i][j]
+for r in result:
+    print(r)
