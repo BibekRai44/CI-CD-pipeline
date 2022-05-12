@@ -1,6 +1,6 @@
 '''
 This program adds two numbers and displays their results
 '''
-A = 1
-B = 2
-print('Sum of Numbers:', A + B)
+variable1= 1
+variable2 2
+print('Sum of Numbers:', variable1 + variable2)
