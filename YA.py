@@ -1,4 +1,7 @@
-a=23
-b=45
-c=a+b
+"""
+add
+"""
+a_first = 23
+b_second = 45
+c = a_first+ b_second
 print(c)
