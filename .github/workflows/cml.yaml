@@ -10,9 +10,10 @@ jobs:
         env:
           REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          pip install scikit-learn
           pip install -r requirements.txt
           python train.py  # generate plot.png
-          python --version
+        
           # Create CML report
           echo "model metrics"
           cat metrics.txt 
